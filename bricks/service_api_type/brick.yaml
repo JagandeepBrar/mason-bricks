@@ -1,5 +1,5 @@
 name: service_api_type
-description: Create a new data type class for a service API package
+description: Create a new enumerated type class for a service API package
 version: 1.0.0+1
 
 environment:
@@ -8,10 +8,8 @@ environment:
 vars:
   service:
     type: string
-    description: Service
     prompt: What is the service name?
   name:
     type: string
-    description: Type Name
     prompt: What is the type name?
 

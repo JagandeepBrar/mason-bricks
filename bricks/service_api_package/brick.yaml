@@ -8,12 +8,11 @@ environment:
 vars:
   service:
     type: string
-    description: Service Name
-    prompt: "What is the service name?"
+    prompt: What is the service name?
   website:
     type: string
-    prompt: "What is the service homepage?"
+    prompt: What is the service homepage?
   api_docs:
     type: string
-    prompt: "Where does the service API documentation live?"
+    prompt: Where does the service API documentation live?
   

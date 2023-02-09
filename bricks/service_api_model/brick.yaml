@@ -8,18 +8,13 @@ environment:
 vars:
   service:
     type: string
-    description: Service
     prompt: What is the service name?
   category:
     type: string
-    description: Model Category
     prompt: What is the model category?
   name:
     type: string
-    description: Model Name
     prompt: What is the model name?
   root_model:
     type: boolean
-    description: Is the model the root model of the category?
-    default: false
-
+    prompt: Is the model the root model of the category?
