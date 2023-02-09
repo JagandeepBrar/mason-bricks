@@ -1,4 +1,4 @@
-name: service_api_package_model
+name: service_api_model
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
