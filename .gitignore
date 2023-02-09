@@ -20,6 +20,6 @@ doc/api/
 
 # Mason
 .DS_Store
-.mason/
-mason.yaml
-mason-lock.json
+/.mason/
+/mason.yaml
+/mason-lock.json
