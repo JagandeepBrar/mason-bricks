@@ -1,0 +1,19 @@
+name: service_api_package
+description: Create a new service API package for Rōnin
+version: 1.0.0+1
+
+environment:
+  mason: ">=0.1.0-dev.41 <0.1.0"
+
+vars:
+  service:
+    type: string
+    default: Dash
+    prompt: "What is the service's name?"
+  service_website:
+    type: string
+    prompt: "What is the service's homepage?"
+  service_api_docs:
+    type: string
+    prompt: "Where does the service's API documentation live?"
+  
