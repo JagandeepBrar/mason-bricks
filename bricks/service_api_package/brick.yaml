@@ -8,12 +8,12 @@ environment:
 vars:
   service:
     type: string
-    default: Dash
-    prompt: "What is the service's name?"
-  service_website:
+    description: Service Name
+    prompt: "What is the service name?"
+  website:
     type: string
-    prompt: "What is the service's homepage?"
-  service_api_docs:
+    prompt: "What is the service homepage?"
+  api_docs:
     type: string
-    prompt: "Where does the service's API documentation live?"
+    prompt: "Where does the service API documentation live?"
   

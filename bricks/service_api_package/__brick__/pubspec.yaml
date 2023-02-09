@@ -1,5 +1,5 @@
 name: {{service.snakeCase()}}_api
-description: Dart abstraction for {{service.titleCase()}}'s public API ({{{service_website}}})
+description: Dart abstraction for {{service.titleCase()}}'s public API ({{{website}}})
 version: 0.0.1-pre.1
 homepage: https://github.com/RoninComputer/package-{{service.paramCase()}}-api
 repository: https://github.com/RoninComputer/package-{{service.paramCase()}}-api

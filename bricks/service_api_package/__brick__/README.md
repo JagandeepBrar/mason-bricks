@@ -41,7 +41,7 @@ And you are ready to make API calls!
 [link-docs]: https://pub.dev/documentation/{{service.snakeCase()}}_api/latest/api/{{service.pascalCase()}}API-class.html
 [link-freezed]: https://pub.dev/packages/freezed
 [link-pubdev]: https://pub.dev/packages/{{service.snakeCase()}}_api
-[link-swagger]: {{{service_api_docs}}}
-[link-website]: {{{service_website}}}
+[link-swagger]: {{{api_docs}}}
+[link-website]: {{{website}}}
 [shield-license]: https://img.shields.io/github/license/RoninComputer/package-{{service.paramCase()}}-api?style=for-the-badge
 [shield-pubdev]: https://img.shields.io/pub/v/{{service.snakeCase()}}_api.svg?style=for-the-badge
