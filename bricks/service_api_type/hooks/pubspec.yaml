@@ -1,0 +1,7 @@
+name: bricks
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  mason: any
