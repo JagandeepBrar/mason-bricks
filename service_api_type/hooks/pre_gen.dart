@@ -8,6 +8,6 @@ void _setTypes(HookContext context) {
   context.vars['types'] = (context.vars['values'] as String)
       .split(',')
       .map((value) => <String, String>{'value': value.trim()})
-      .toList();
-  print(context.vars['types']);
+      .toList()
+    ..sort((a, b) => a['value']!.compareTo(b['value']!));
 }
