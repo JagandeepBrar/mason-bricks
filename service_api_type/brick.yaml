@@ -12,4 +12,6 @@ vars:
   name:
     type: string
     prompt: What is the type name?
-
+  values:
+    type: string
+    prompt: What are the type values (comma separated)?

@@ -3,8 +3,8 @@ import 'package:{{service.snakeCase()}}_api/src/internal/mixins/serializable.dar
 
 @JsonEnum(valueField: 'name')
 enum {{service.pascalCase()}}{{name.pascalCase()}} with EnumSerializableMixin {
-  // TODO: Add types
-  value('value');
+  {{#types}}{{value.camelCase()}}('{{value}}'),
+  {{/types}};
 
   final String name;
   const {{service.pascalCase()}}{{name.pascalCase()}}(this.name);

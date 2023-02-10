@@ -23,3 +23,4 @@ doc/api/
 /.mason/
 /mason.yaml
 /mason-lock.json
+_test/
