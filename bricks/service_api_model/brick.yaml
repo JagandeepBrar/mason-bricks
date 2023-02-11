@@ -15,6 +15,3 @@ vars:
   name:
     type: string
     prompt: What is the model name?
-  root_model:
-    type: boolean
-    prompt: Is the model the root model of the category?
