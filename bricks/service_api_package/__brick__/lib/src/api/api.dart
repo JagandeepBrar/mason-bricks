@@ -9,11 +9,7 @@ part 'api.g.dart';
 @RestApi()
 abstract class {{service.pascalCase()}}API {
   factory {{service.pascalCase()}}API({{service.pascalCase()}}Config config) {
-    Dio dio = Dio(BaseOptions(
-      baseUrl: config.baseUrl,
-      headers: config.headers,
-      // TODO: Add additional required base options
-    ));
+    Dio dio = Dio(config.baseOptions);
     return _{{service.pascalCase()}}API(dio);
   }
 }

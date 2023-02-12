@@ -1,3 +1,4 @@
+import 'package:dio/dio.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:{{service.snakeCase()}}_api/src/internal/mixins/serializable.dart';
 
@@ -10,12 +11,19 @@ class {{service.pascalCase()}}Config with _${{service.pascalCase()}}Config, Json
 
   const factory {{service.pascalCase()}}Config({
     required String host,
-    Map<String, dynamic>? headers,
+    @JsonKey(ignore: true) BaseOptions? options,
   }) = _{{service.pascalCase()}}Config;
 
   String get baseUrl {
     // TODO: Generate base URL to API path
     return host;
+  }
+
+  BaseOptions get baseOptions {
+    final opts = options ?? BaseOptions();
+    opts.baseUrl = baseUrl;
+    // TODO: Prepare HTTP client base options
+    return opts;
   }
 
   factory {{service.pascalCase()}}Config.fromJson(Map<String, Object?> json) =>
