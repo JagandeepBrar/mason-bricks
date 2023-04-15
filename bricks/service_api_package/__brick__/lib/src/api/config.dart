@@ -11,7 +11,7 @@ class {{service.pascalCase()}}Config with _${{service.pascalCase()}}Config, Json
 
   const factory {{service.pascalCase()}}Config({
     required String host,
-    @JsonKey(ignore: true) BaseOptions? options,
+    @JsonKey(includeFromJson: false, includeToJson: false) BaseOptions? options,
   }) = _{{service.pascalCase()}}Config;
 
   String get baseUrl {
