@@ -6,6 +6,8 @@ enum {{service.pascalCase()}}{{name.pascalCase()}} with EnumSerializableMixin {
   {{#types}}{{value.camelCase()}}('{{value}}'),
   {{/types}};
 
+  @override
   final String name;
+
   const {{service.pascalCase()}}{{name.pascalCase()}}(this.name);
 }
