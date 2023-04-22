@@ -1,4 +1,4 @@
-name: bricks
+name: ronin_mason_bricks
 
 environment:
   sdk: ">=2.18.0 <4.0.0"

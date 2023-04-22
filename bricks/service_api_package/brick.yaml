@@ -1,5 +1,5 @@
 name: service_api_package
-description: Create a new service API package for Rōnin
+description: Create a new service API package
 version: 1.0.0+1
 
 environment:
@@ -15,4 +15,3 @@ vars:
   api_docs:
     type: string
     prompt: Where does the service API documentation live?
-  
